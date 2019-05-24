@@ -5,7 +5,7 @@ $(document).ready(function(){
 
 
          $.ajax({
-            url:"http://itunes.apple.com/search?term=" + musician,
+            url:"https://itunes.apple.com/search?term=" + musician,
             dataType: "jsonp",
             success: callBack,
         })
